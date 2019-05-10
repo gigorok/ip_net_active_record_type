@@ -19,6 +19,10 @@ module IpNetActiveRecordType
       value.to_s
     end
 
+    def type
+      :inet
+    end
+
     private
 
     def safe_typecast
