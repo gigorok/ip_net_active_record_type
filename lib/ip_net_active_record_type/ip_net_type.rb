@@ -18,6 +18,9 @@ module IpNetActiveRecordType
     def type_cast_for_database(value)
       value.to_s
     end
-
+    
+    def type
+      'inet'
+    end
   end
 end
